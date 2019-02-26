@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'headFont';
+    src:url('../fonts/HipstelveticaLight.ttf') format('truetype');    
+}
+@font-face {
+    font-family: 'textFont';
+    src:url('../fonts/QanelasSoftDEMO-UltraLight.otf') format('truetype');    
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    background: #f4f4f4;
+    color: #C0B283;
+    font-family: 'textFont';
+   
+}
+
+#container
+{
+    /*width:80%;*/
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    
+}
+h1
+{
+    font-family:'headFont';
+    color:#F4F4F4;
+    background-color: #373737;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);
+    border-radius:20%;
+    float:left;
+    width:100%;
+}
+#div1
+{
+    
+    float:right;
+    display: block;
+    margin:auto;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+    overflow: auto;
+    
+}
+#div1 img
+{
+    height:350px;
+}
+#div2
+{
+    margin-top:5%;
+    margin-left:5%;
+    float:left;
+    width:40%;
+    color:#373737;
+}
+.content
+{
+    float:left;
+    background: linear-gradient(100deg,#D0D3D4  50%,  #373737 50%);
+    background-color: black;
+}
+.row
+{
+    float:left;
+}
+.course
+{
+    width:14%;
+    height:270px;
+    margin:2.9%;
+    float: left;
+    background: linear-gradient(0deg, #F4F4F4 78%, #DCD0C0 22%);
+    border-radius: 3%;
+    padding-left:6.4%;
+    padding-right: 6.4%;
+    box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);
+    display: block;
+    position:relative;
+    overflow: hidden;
+
+}
+.myButton
+{
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid #c0b283;
+	display:inline-block;
+	cursor:pointer;
+	color:#c0b283;
+	font-size:13px;
+	padding:14px 35px;
+	text-decoration:none;
+    font-size: 1em;
+    transition: all 1s;
+    font-weight: 700;
+    /*box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);*/
+}
+.myButton:hover
+ {
+	background-color:#c0b283;
+    color: white;
+}

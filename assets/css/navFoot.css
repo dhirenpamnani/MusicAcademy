@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'headFont';
+    src:url('../fonts/HipstelveticaLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'textFont';
+    src:url('../fonts/QanelasSoftDEMO-UltraLight.otf') format('truetype');
+}
+@font-face {
+    font-family: 'logoFont';
+    src:url('../fonts/fa-solid-900.ttf') format('truetype');
+}
+
+
+
+
+body{
+	margin:0;
+	padding: 0;
+	}
+
+.wrapper{
+	width: 30%;
+	height:100%;
+	text-align: center;
+    text-transform: uppercase;
+	/*background-position:center;
+	background-size:cover;*/
+	}
+
+.open{
+	color: #373737;
+	font-size: 24px;
+	display:block;
+	float:left;
+	margin:1em 0 0 1em;
+	cursor:pointer;
+	}
+
+.nav{
+	width: 0%;
+	font-family: textFont;
+	overflow-x: hidden;
+	z-index: 1;
+	position: fixed;
+	background: #373737;
+	display:block;
+	transition: 0.4s;
+	height: 100vh;
+	}
+
+.nav a{
+	color: #fff;
+	font-size: 20px;
+	display:block;
+	padding: 1em 0;
+	transition: 0.4s;
+	clear: left;
+	text-decoration: none;
+	}
+
+.close{
+	float: left;
+	padding: 1em 0 0 1em;
+	}
+
+#close{
+    width: 100%;
+}
+
+.nav a:hover{
+	background-color: #c0b283;
+	}
+
+/*Footer*/
+footer {
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #373737;
+    color: #f4f4f4;
+    text-align: center;
+    margin: 0 auto;
+}
+footer div{
+   float:left;
+    padding: 0 7%;
+
+}
+
+
+#address{
+    margin-left: 5%;
+}
+#connectUs{
+    margin-top: 40px;
+    margin-left: 1%;
+}
+
+#connectUs a {
+
+    color: white;
+    font-size: 33px;
+    margin:0 auto;
+
+    margin: 0 20px;
+    display: inline;
+}
+#contactUs
+{
+	margin-left: 30%;
+}

@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'headFont';
+    src:url('../fonts/HipstelveticaLight.ttf') format('truetype');    
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    background: #f4f4f4;
+    /*color: #C0B283;*/
+    font-family: 'textFont';
+}
+h1
+{
+    float:left;
+   
+    margin-left:40%;
+    margin-right: 40%;
+    /*font-family: 'headFont';*/
+}
+.container
+{
+
+}
+
+.left
+{
+    float:left;
+    width:20%;
+    margin-left:10%;
+    margin-right:5%;
+    margin-top: 5%;
+}
+form
+{
+    width:100%;
+    background-color: #F4F4F4;
+    border-radius: 2%;
+}
+
+option
+{
+    padding: 20px;
+    width:100%;
+    margin: 0 auto;
+    margin-top:2%;
+    color: #C0B283;
+}
+option a
+{
+    width:100%;
+}
+.right
+{
+    float:right;
+    width:65%;
+}
+.SelectButtons
+{
+    padding: 20px;
+    width:60%;
+    margin: 0 auto;
+    margin-top:2%;
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid #c0b283;
+	display:inline-block;
+	cursor:pointer;
+	color:#c0b283;
+	font-size:13px;
+	padding:14px 35px;
+	text-decoration:none;
+    font-size: 1em;
+    transition: all 1s;
+    font-weight: 900;
+
+    /*box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);*/
+}
+.SelectButtons:hover
+ {
+	background-color:#c0b283;
+    color: white;
+}
+.course
+{
+    width:70%;
+    height:200px;
+    margin:2.9%;
+
+    /*float: left;*/
+    background: linear-gradient(270deg, #F4F4F4 70%, #373737 30%);
+    border-radius: 1%;
+    padding-left:5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);
+    display: block;
+    position:relative;
+    overflow: hidden;
+
+}
+.innerLeft
+{
+    float:left;
+    width:40%;
+    margin:0 auto;
+    margin-top:7.5%;
+
+}
+.innerLeft img
+{
+    float:left;
+    width:50%;
+    height:50%;
+}
+.innerRight
+{
+    float:left;
+    width:50%;
+    margin:0 auto;
+    margin-right: 5%;
+    margin-top:5%;
+}
+
+
+.searchBar{
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #c0b283;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+.blue    { background-color: #c0b283; }
+
+.blue select    { color: #373737; }

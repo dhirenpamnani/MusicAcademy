@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'headFont';
+    src:url('../fonts/HipstelveticaLight.ttf') format('truetype');    
+}
+@font-face {
+    font-family: 'textFont';
+    src:url('../fonts/QanelasSoftDEMO-UltraLight.otf') format('truetype');    
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    background: #f4f4f4;
+    /*color: #C0B283;*/
+    font-family: 'textFont';
+}
+#container
+{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    float:left;
+}
+
+.topnav 
+{
+    background-color: #333;
+   	overflow: hidden;
+}
+.topnav a
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active 
+{
+  	background-color: #4CAF50;
+    color: white;
+}
+#div1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    overflow: auto
+        
+}
+#div1 img
+{
+    height:350px;
+}
+#div2
+{
+    background-color: #DCD0C0;
+    float:left;
+    margin-top:2%;
+    box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);
+}
+p
+{
+    padding:3%;
+}
+.mySlides 
+{
+    display:none;	
+    float:left;
+}
+.button
+{
+		float:left;
+		margin-top: 2%;
+
+}
+.course1
+{
+    box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);
+    /*background-color: #373737;*/
+    background: linear-gradient(130deg, #F4F4F4 78%, #373737 22%);
+    float:left;
+    width:90%;
+    display:block;
+    position:relative;
+    padding: 25px;
+    margin-top: 2%;
+    margin-left: 2%;
+    		
+    text-align: center;
+}
+.middle 
+{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.course1:hover p
+{
+    opacity: 0.3;
+}
+
+.course1:hover .middle 
+{
+    opacity: 1;
+}
+
+.text 
+{
+    padding: 25px;
+    margin: auto;
+    background-color: #E3E3E7;
+    color: black;
+    font-size: 16px;
+}

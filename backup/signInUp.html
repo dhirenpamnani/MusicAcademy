@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/navFoot.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/lib/adp.css">
+    <link rel="stylesheet" href="assets/css/loginSignup.css">
+    
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div id="nav" class="nav">
+                <a href="#" id="close" class="close" onclick="closenav()">&lArr;</a>
+                <a href="courses.php">MUSIC ACADEMY</a>
+                <a href="#">INSTRUMENTS</a>
+                <a href="#">PRIME</a>
+                <a href="#">LOGIN</a>
+            </div>
+            <span id="open" class="open" onclick="opennav()">&weierp;</span>
+	</div>
+    </header>
+    
+    <div id = "mainContainer">
+        
+        <div id = "Start">
+            <h2>Music Academy</h2>
+            <a href = "#" class = "myButton" id = "signIn">Sign In</a>
+            <br>
+            <a href = "#" class = "myButton" id = "signUp">Sign Up</a>
+        </div>
+        
+        <div id = "SignInBlock">
+            <h2>Music Academy</h2>
+            <h3>Sign In</h3>
+            <form action="signIn.php" method="post">
+                <input type="text" name="username" placeholder="Username" class = "box" required>
+                <br>
+                <input type="password" name="password" placeholder="Password" class = "box" required>
+                <br>
+                <input id = "submitButton" class = "myButton" type="submit" value="Submit">
+            </form>
+            <a href = "#" class = "myButton" id = "backButton">Back</a>
+        </div>
+
+        
+        <div id = "SignUpBlock">
+            <h2>Music Academy</h2>
+            <h3>Sign Up</h3>
+            <form action="signUp.php" method="post">
+                <label>First Name And Last Name</label>
+                <br><br>
+                <input type="text" name="firstName" placeholder="Your First Name" class = "box" required>
+                
+                <input type="text" name="lastName" placeholder="Last Name" class = "box" required>
+                <br>
+                <label>Gender</label>
+                <br><br>
+                <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+                <br><br>
+                <label>Email</label>
+                <br><br>
+                <input type="email" name="emailaddress" placeholder="Email Address" class = "box" required>
+                <br>
+                <label>Username</label>
+                <br><br>
+                <input type="text" name="userName" placeholder="What should we call you?" class = "box" required>
+                <br>
+                <label>Password</label>
+                <br><br>
+                <input type="password" name="password" placeholder="Password" class = "box" required>
+                <input type="password" name="repeatPassword" placeholder="Re-Enter Password" class = "box" required>
+                <br>
+                <label>Date Of Birth</label>
+                <br><br>
+                <input type="date" name="bday" class = "box" required>
+                <br>
+                <label>Do you agree to terms and conditions?</label>
+                <input type="checkbox" name="termsConditions" value="TandC" class = "box"/>  
+                <br><br>
+                <input id = "submitButton" class = "myButton" type="submit" value="Sign Up">
+            </form>
+            <a href = "#" class = "myButton" id = "backButton">Back</a>
+        </div>
+    </div>
+
+ 
+    
+    <!--Scripts-->
+    <script type= "text/javascript" src="assets/js/signInUp.js"></script>
+    <script type="text/javascript" src="assets/js/lib/adp.js"></script>
+    <script type="text/javascript" src="assets/js/navFoot.js"></script>
+    
+</body>
+</html>

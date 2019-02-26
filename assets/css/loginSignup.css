@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'headFont';
+    src:url('../fonts/HipstelveticaLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'textFont';
+    src:url('../fonts/QanelasSoftDEMO-UltraLight.otf') format('truetype');
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    background-image:url(../images/signupbgr.jpg);
+    background-size: cover;
+    color: #f4f4f4;
+    font-family: 'textFont';
+}
+
+#mainContainer{
+    margin: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    float: left;
+    background-color: rgba(55, 55, 55, 0.8);
+    color: #f4f4f4;
+    padding: 25px;
+    border-radius: 15px;
+  }
+
+#signIn{
+    margin-top: 130px;
+}
+
+h2{
+
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: 'headFont';
+}
+
+.myButton {
+    padding: 20px;
+    margin: 20px;
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid #f4f4f4;
+	display:inline-block;
+	cursor:pointer;
+	color:#f4f4f4;
+	font-size:13px;
+	padding:14px 35px;
+	text-decoration:none;
+    font-size: 1em;
+    transition: all 1s;
+    font-weight: 700;
+}
+.highlight {
+	background-color:#f4f4f4;
+    color: #373737;
+}
+
+
+.box{
+    background-color:transparent;
+	border-radius:3px;
+	border:1px solid #f4f4f4;
+	display:inline-block;
+	cursor:pointer;
+	color:#f4f4f4;
+	font-size:13px;
+	padding:14px 35px;
+	text-decoration:none;
+    font-size: 1em;
+    transition: all 1s;
+    margin-bottom: 30px;
+}
+
+div h3{
+    font-size: 2em;
+}
+
+#SignUpBlock form {
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+#SignUpBlock form input[type=checkbox] {
+    padding-left: 10px;
+    -webkit-transform: scale(2);
+}

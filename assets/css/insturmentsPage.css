@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'headFont';
+    src:url('../fonts/HipstelveticaLight.ttf') format('truetype');    
+}
+@font-face {
+    font-family: 'textFont';
+    src:url('../fonts/QanelasSoftDEMO-UltraLight.otf') format('truetype');    
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    background: #f4f4f4;
+    color: #c0b283;
+    font-family: 'textFont';
+}
+h1
+{
+    float:left;
+    margin-left:42%;
+    margin-right: 40%;
+    font-family: 'headFont';
+}
+.container
+{
+    float:left;  
+    margin-left:4%;
+}
+
+.content
+{
+    float:left;
+    width:90%;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-top: 2%;
+    background: linear-gradient(100deg,#F4F4F4  50%,  #373737 50%);
+    background-color: black;
+    border: solid #373737;
+}
+.content h3
+{
+    float:left;
+    margin-left: 15%;
+}
+.content img
+{
+    float:right;
+    margin-right: 20%;
+    
+    height:130px;
+    width:200px;
+}
+.content:hover
+{
+    background-color:#373737;
+    color: white;
+}
+.myButton 
+{
+    padding: 20px;
+    margin: 20px;
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid #373737;
+	display:inline-block;
+	cursor:pointer;
+	color:#373737;
+	font-size:13px;
+	padding:14px 35px;
+	text-decoration:none;
+    font-size: 1em;
+    transition: all 1s;
+    font-weight: 700;
+}
+.myButton:hover
+ {
+	background-color:#373737;
+    color: white;
+}
+

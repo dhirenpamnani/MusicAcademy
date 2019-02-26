@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'headFont';
+    src:url('../fonts/HipstelveticaLight.ttf') format('truetype');    
+}
+
+video{
+   margin:0 auto;
+    margin-top: 90px;
+margin-left: 150px;
+margin-bottom: 25px;
+}
+.open
+{
+    color: #C0B283;
+}
+h1
+{
+    margin:-8px;
+    font-family:'headFont';
+    color:#F4F4F4;
+    background-color: #373737;
+    padding-top: 20px;
+	padding-bottom: 20px;
+    box-shadow: 10px 10px 15px -1px rgba(173,171,173,0.73);
+    text-align: center;
+   
+}
+
+body{
+    
+    
+    background-image: url(../images/backtext.jpg);
+    background-repeat: no-repeat;
+}

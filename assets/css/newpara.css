@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'headFont';
+    src:url('../fonts/HipstelveticaLight.ttf') format('truetype');
+}
+
+body{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+z-index:-1;
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../images/musicpara.jpg');
+  min-height:800px;
+}
+.pimg2{
+  background-image:url('../images/musicpara2.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('../images/musicpara3.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+    margin-top: -9px;
+  background-color:#f4f4f4;
+  color:#373737;
+}
+
+.section-dark{
+  background-color:#373737;
+  color:#f4f4f4;
+
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+padding:35px;
+font-family: 'headFont';
+font-size: 30px;
+    border-radius: 50px;
+
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+.myButton {
+    padding: 20px;
+    margin: 20px;
+	background-color:transparent;
+	border-radius:10px;
+	border:1px solid #373737;
+	display:inline-block;
+	cursor:pointer;
+	color:#373737;
+	font-size:13px;
+	padding:14px 35px;
+	text-decoration:none;
+    font-size: 1em;
+    transition: all 1s;
+    font-weight: 700;
+}
+.myButton:hover {
+	background-color:#373737;
+    color: #f4f4f4;
+}
+
+h1{
+    font-size:30px;
+    letter-spacing: 2px;
+}
